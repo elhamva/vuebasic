@@ -31,7 +31,7 @@ export default {
 <style>
 #show-blogs{
     max-width: 800px;
-    margin: 0px auto;
+    margin: 70px auto;
 }
 .single-blog{
     padding: 20px;
