@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>VueJS Tutorials</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://unpkg.com/vue"></script>
+</head>
+
+<body>
+    <div id="vue-app">
+        <h1>keyword Event</h1>
+        <label>Name:</label>
+        <input type="text" v-on:keyup.enter="logName">
+        <p> V Binding:</p>
+        <label>Name:</label>
+        <input type="text" v-model="Name">
+        <span>{{ Name }}</span>
+        <p></p>
+        <label>age:</label>
+        <input type="text" v-on:keyup.enter="logAge">
+        <p>V Binding:</p>
+        <label>age:</label>
+        <input type="text" v-model="age">
+        <span>{{ age }}</span>
+
+
+
+    </div>
+</body>
+
+<script src="app.js"></script>
+
+</html>

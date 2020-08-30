@@ -1,0 +1,1 @@
+https://console.firebase.google.com/project/vue-test-26cba/database/vue-test-26cba/data
